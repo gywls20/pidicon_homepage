@@ -1,0 +1,81 @@
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.layout{
+  vertical-align: middle;
+  width: 1350px;
+  margin: auto;
+}
+
+.wrap{
+  width: 100%;
+}
+.container{
+  margin: 0 auto;
+  display: block;
+}
+.menu_btn{
+  float: left;
+}
+/* 버튼 */
+.btn{
+  position: absolute;
+}
+#event_btn{ /* 위치: event.ejs */
+  margin-top: 100px;
+  margin-left: 60px;
+}
+#presentation_btn{ /* 위치: plan.ejs */
+  margin-top: 1230px;
+  margin-left: 465px;
+}
+#guidelines_btn{ /* 위치: apply.ejs */
+  margin-top: 1215px;
+  margin-left: 254px;
+  overflow: hidden;
+}
+#guidelines_btn a {
+  display: inline-block;
+  width: 403.99px;
+}
+#application_btn{
+  margin-top: -73px;
+  margin-left: 690px;
+}
+
+/* 상단 네비게이션 */
+.topnav {
+  position: absolute;
+  width: 1350px;
+  background-color: #19002A;
+}
+
+.topnav img {
+  overflow: hidden;
+
+  margin: 0 auto;
+  display: block;
+}
+
+
+.topnav ul {
+  text-align: center; 
+  margin: 55px; 
+  padding: 0; 
+}
+
+
+.topnav li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 70px;
+}

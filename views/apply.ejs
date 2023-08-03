@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="icon" href="/icon/home.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+  <body>
+    <div class="container" >
+      <%include ./layout/menu %>
+      <div class="animate__animated 
+      animate__fadeInDown">
+        <div class="wrap">
+                <div class="layout">
+                  <div class="btn">
+                    <div id="guidelines_btn">
+                      <a href="test.pdf" download><img src="btn/guidelines.png"></a>
+                    </div>
+                    <div id="application_btn">
+                      <a href="#" onclick="alert('준비중입니다.');"><img src="btn/application.png"></a>
+                    </div>
+                  </div>
+                  <img src="가명·익명처리 기술 경진대회 홈페이지_4p_05.jpg" width="100%">
+                </div>
+              </div>
+      </div>
+      
+      <%include ./layout/footer.ejs %>
+    </div>
+  
+  </body>
+</html>
