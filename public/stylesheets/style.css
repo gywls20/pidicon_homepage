@@ -29,7 +29,9 @@ body {
 /* 버튼 */
 .btn{
   position: absolute;
+  opacity: 0.0; /*투명*/
 }
+#event
 #event_btn{ /* 위치: event.ejs */
   margin-top: 100px;
   margin-left: 60px;
